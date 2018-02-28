@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  background-image: url("winter.jpeg");
+  font-family: arial;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 15px 15px 15px 15px;
+  margin: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color:white;
+
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 10px;
+  text-align: left;
+}
+
+nav ul li a {
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  color: #555;
+}
+
+h2 {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: underline;
+}
+
+.body:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+.nav {
+  background: #555;
+  text-align: left;
+  margin: 1%;
+  float:left;
+  width: 10%;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+.col1 {
+  background: #999;
+  color: black;
+  margin: 1%;
+  float:left;
+  width: 82%;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+.box {
+  background: #666;
+  color: black;
+  margin: 1%;
+  float:left;
+  width: 82%;
+  padding: 1%;
+  border-radius: 5px;
+
+}
+
+.col2 {
+  background: #999;
+  color: black;
+  margin: 1%;
+  float:left;
+  width: 39%;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+.col3 {
+  background: #999;
+  color: black;
+  margin: 1%;
+  float:left;
+  width: 24%;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+a:link    {
+  /* Applies to all links */
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  }
+
+a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration: underline;
+  font-weight: bold;
+  color: black;
+  }
+
+
+footer {
+
+}

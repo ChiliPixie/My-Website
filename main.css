@@ -1,8 +1,13 @@
 body {
   margin: 0;
-  background-image: url("winter.jpeg");
+  /*background-image: url("winter.jpeg");*/
   font-family: arial;
 }
+
+.spring {background-image: url("spring.jpg");}
+.summer {background-image: url("summer.jpg");}
+.autumn {background-image: url("autumn.jpg");}
+.winter {background-image: url("winter.jpeg");}
 
 header {
   background: black;

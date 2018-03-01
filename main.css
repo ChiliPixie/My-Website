@@ -44,6 +44,12 @@ h2 {
   text-decoration: underline;
 }
 
+h3 {
+  margin: 5px;
+  font-size:
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
 .body:after {
   clear: both;
   content: " ";
@@ -59,8 +65,8 @@ h2 {
   padding: 1%;
   border-radius: 5px;
 }
-
-.col1 {
+/* Applies to all col 10 wide, 1wide  */
+.col10 {
   background: #999;
   color: black;
   margin: 1%;
@@ -70,18 +76,18 @@ h2 {
   border-radius: 5px;
 }
 
-.box {
-  background: #666;
+.col7 {
+  background: #999;
   color: black;
   margin: 1%;
   float:left;
-  width: 82%;
+  width: 53%;
   padding: 1%;
   border-radius: 5px;
-
 }
 
-.col2 {
+/* Applies to all col 5 wide, 2wide  */
+.col5 {
   background: #999;
   color: black;
   margin: 1%;
@@ -99,6 +105,12 @@ h2 {
   width: 24%;
   padding: 1%;
   border-radius: 5px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a:link    {

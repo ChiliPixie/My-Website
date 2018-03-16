@@ -123,11 +123,19 @@ img {
 }
 
 a:link    {
-  /* Applies to all links */
+  /* Applies to all unvisited links */
   text-decoration: none;
   font-weight: bold;
   color: white;
-  }
+}
+
+a:visited {
+  /* Applies to all visited links */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 
 a:hover   {
   /* Applies to links under the pointer */

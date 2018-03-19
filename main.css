@@ -48,8 +48,7 @@ h2 {
 }
 
 .col10 {
-  background: #999;
-  opacity: 0.8;
+  background: rgba(144, 144, 144, 0.8);
   color: black;
   margin: 4% 4% 4% 0%;
   padding: 1%;
@@ -58,8 +57,8 @@ h2 {
 }
 
 .col7 {
-  background: #999;
-  opacity: 0.8;
+  /*background: #999;*/
+  background: rgba(144, 144, 144, 0.8);
   color: black;
   margin: 4% 4% 4% 0%;
   width: 60%;
@@ -69,8 +68,7 @@ h2 {
 }
 
 .col5 {
-  background: #999;
-  opacity: 0.8;
+  background: rgba(144, 144, 144, 0.8);
   color: black;
   width: 44%;
   margin: 4% 4% 4% 0%;
@@ -80,8 +78,7 @@ h2 {
 }
 
 .col3 {
-  background: #999;
-  opacity: 0.8;
+  background: rgba(144, 144, 144, 0.8);;
   color: black;
   width: 28%;
   margin: 4% 4% 4% 0%;
@@ -94,6 +91,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 8px;
+  opacity: 1;
 }
 
 a:link    {

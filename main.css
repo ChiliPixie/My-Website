@@ -95,6 +95,11 @@ img {
   opacity: 1;
 }
 
+.center-icon {
+  vertical-align: middle;
+  margin:0px 0px 0px 15px;
+}
+
 a:link    {
   /* Applies to all unvisited links */
   text-decoration: none;

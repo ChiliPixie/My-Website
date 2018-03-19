@@ -35,12 +35,6 @@ h2 {
   text-decoration: underline;
 }
 
-.body:after {
-  clear: both;
-  content: " ";
-  display: table;
-}
-
 .nav {
   background: #555;
   text-align: left;
@@ -50,6 +44,13 @@ h2 {
   padding: 1%;
   border-radius: 5px;
 }
+
+.content {
+/* Box for page content*/
+  margin: 11% 1% 1% 20%;
+  float:left;
+}
+
 /* Applies to all col 10 wide, 1wide  */
 .col10 {
   background: #999;

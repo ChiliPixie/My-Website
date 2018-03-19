@@ -22,7 +22,7 @@ body, html {
   background: #555;
   text-align: left;
   font-size: 20px;
-  margin: 10% 1% 1% 0%;
+  margin: 9% 1% 1% 0%;
   width: 15%;
   padding: 1%;
   position: fixed;
@@ -44,50 +44,51 @@ h2 {
 
 .content {
 /* Box for page content*/
-  margin: 11% 1% 1% 20%;
+  margin: 10% 0% 0% 20.5%;
   float:left;
 }
 
-/* Applies to all col 10 wide, 1wide  */
 .col10 {
   background: #999;
+  opacity: 0.8;
   color: black;
-  margin: 1%;
-  float:left;
-  width: 82%;
+  margin: 4% 4% 4% 0%;
   padding: 1%;
   border-radius: 5px;
+  float:left;
 }
 
 .col7 {
   background: #999;
+  opacity: 0.8;
   color: black;
-  margin: 1%;
-  float:left;
-  width: 53%;
+  margin: 4% 4% 4% 0%;
+  width: 60%;
   padding: 1%;
   border-radius: 5px;
+  float:left;
 }
 
-/* Applies to all col 5 wide, 2wide  */
 .col5 {
   background: #999;
+  opacity: 0.8;
   color: black;
-  margin: 1%;
-  float:left;
-  width: 39%;
+  width: 44%;
+  margin: 4% 4% 4% 0%;
   padding: 1%;
   border-radius: 5px;
+  float:left;
 }
 
 .col3 {
   background: #999;
+  opacity: 0.8;
   color: black;
-  margin: 1%;
-  float:left;
-  width: 24%;
+  width: 28%;
+  margin: 4% 4% 4% 0%;
   padding: 1%;
   border-radius: 5px;
+  float:left;
 }
 
 .foot {

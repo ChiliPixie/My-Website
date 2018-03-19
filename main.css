@@ -1,7 +1,6 @@
 body, html {
   margin: 0;
   min-height: 100%;
-  /*background-image: url("winter.jpeg");*/
   font-family: arial;
 }
 
@@ -43,7 +42,7 @@ h2 {
 }
 
 .content {
-/* Box for page content*/
+/* Box for page content */
   margin: 10% 0% 0% 20.5%;
   float:left;
 }
@@ -91,16 +90,6 @@ h2 {
   float:left;
 }
 
-.foot {
-  color: black;
-  margin: 1%;
-  padding: 1%;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
 img {
   display: block;
   margin-left: auto;
@@ -129,6 +118,15 @@ a:hover   {
   color: black;
   }
 
+.foot {
+  color: black;
+  margin: 1%;
+  padding: 1%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 
 footer {
 

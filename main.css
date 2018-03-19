@@ -15,6 +15,19 @@ body, html {
   width: 100%;
   padding: 10px 16px;
   background: black;
+  z-index: 2;
+}
+
+.nav {
+  background: #555;
+  text-align: left;
+  font-size: 20px;
+  margin: 10% 1% 1% 0%;
+  width: 15%;
+  padding: 1%;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
 h1 {
@@ -27,16 +40,6 @@ h2 {
   padding: 0px;
   margin: 0px;
   text-decoration: underline;
-}
-
-.nav {
-  background: #555;
-  text-align: left;
-  margin: 1%;
-  float:left;
-  width: 10%;
-  padding: 1%;
-  border-radius: 5px;
 }
 
 .content {

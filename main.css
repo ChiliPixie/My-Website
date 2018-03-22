@@ -80,7 +80,16 @@ h2 {
 .col3 {
   background: rgba(144, 144, 144, 0.8);;
   color: black;
-  width: 28%;
+  width: 27%;
+  margin: 4% 4% 4% 0%;
+  padding: 1%;
+  border-radius: 5px;
+  float:left;
+}
+
+.col3-none {
+  color: black;
+  width: 27%;
   margin: 4% 4% 4% 0%;
   padding: 1%;
   border-radius: 5px;

@@ -44,6 +44,7 @@ h2 {
 .content {
 /* Box for page content */
   margin: 10% 0% 0% 20.5%;
+  width: 80%;
   float:left;
 }
 
@@ -52,6 +53,7 @@ h2 {
   color: black;
   margin: 4% 4% 4% 0%;
   padding: 1%;
+  width: 94%;
   border-radius: 5px;
   float:left;
 }
